@@ -1,4 +1,53 @@
-/* .App {
-  text-align: center;
-} */
+.nav {
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 2;
+  justify-content: space-between;/*separa horizontalmente la imagen y el nav*/
+  align-items: center;
+  height: 80px;
+  background: linear-gradient(to bottom, #ffffff,  #e8e7e7, #c1c1c1,#8f8f8f);
+}
 
+.navLogo {
+  height: 60px;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.icoCarrito {
+  height: 50px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.contadorCarrito {
+  display: flex;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.navLista {/* prop el nav */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 80%;
+  right: 2%;
+  top: 0;        
+  padding-top: 0;
+  text-align: center;
+  justify-content: end;
+  gap: 0.3rem;
+  margin-right: 0.2rem;
+  background-color: transparent;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.linkBoton {
+  margin: 0 0.4rem;
+  text-decoration: none;
+}
